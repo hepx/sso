@@ -1,0 +1,252 @@
+2014-07-14 00:08:56,994 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 00:08:58,937 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2014-07-14 00:09:17,182 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2014-07-14 00:09:17,185 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2014-07-14 00:09:17,186 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2014-07-14 00:09:25,485 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-14 00:09:25,485 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-14 23:22:51,287 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:22:54,341 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2014-07-14 23:23:11,596 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2014-07-14 23:23:11,602 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2014-07-14 23:23:11,602 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2014-07-14 23:23:42,347 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-14 23:23:42,347 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-14 23:24:25,867 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [AbstractAccessDecisionManager.accessDenied] cannot be found in the language bundle for the locale [zh_CN]
+2014-07-14 23:24:52,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:24:52,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:25:03,619 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler failed authenticating hepx+password
+2014-07-14 23:25:03,627 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [hepx+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Mon Jul 14 23:25:03 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-14 23:25:03,628 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Mon Jul 14 23:25:03 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-14 23:25:34,548 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler failed authenticating hepx+password
+2014-07-14 23:25:34,549 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [hepx+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Mon Jul 14 23:25:34 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-14 23:25:34,549 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Mon Jul 14 23:25:34 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-14 23:25:47,538 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated casuser+password
+2014-07-14 23:25:47,540 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated casuser with credentials [casuser+password].
+2014-07-14 23:25:47,541 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [casuser+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Mon Jul 14 23:25:47 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-14 23:25:47,544 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-cVRNrIEQKAmO1eBErw37cG2XB0ufXoZtIsSt0ZH2Y0NPH1uvY7-cas01.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Mon Jul 14 23:25:47 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-14 23:25:57,741 WARN [org.jasig.cas.web.view.CasReloadableMessageBundle] - The code [AbstractAccessDecisionManager.accessDenied] cannot be found in the language bundle for the locale [zh_CN]
+2014-07-14 23:26:52,318 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:26:52,318 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:28:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:28:52,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:30:52,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:30:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:32:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:32:52,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:34:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:34:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:36:52,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:36:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:38:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:38:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:40:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:40:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:42:52,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:42:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:44:52,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:44:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:46:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:46:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:48:52,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:48:52,316 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:50:52,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:50:52,315 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:52:52,317 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:52:52,318 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-14 23:54:52,318 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Reloading registered services.
+2014-07-14 23:54:52,318 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-25 23:23:15,740 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-25 23:23:18,365 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2014-07-25 23:23:36,153 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2014-07-25 23:23:36,159 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2014-07-25 23:23:36,159 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2014-07-25 23:23:49,729 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-25 23:23:49,729 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-25 23:24:02,693 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler failed authenticating hepx+password
+2014-07-25 23:24:02,697 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [hepx+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:24:02 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:24:02,697 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:24:02 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:24:12,337 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler failed authenticating hepx+password
+2014-07-25 23:24:12,338 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [hepx+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:24:12 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:24:12,339 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:24:12 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:24:46,390 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler failed authenticating hepx+password
+2014-07-25 23:24:46,391 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [hepx+password]
+ACTION: AUTHENTICATION_FAILED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:24:46 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:24:46,391 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: 1 errors, 0 successes
+ACTION: TICKET_GRANTING_TICKET_NOT_CREATED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:24:46 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:26:59,553 INFO [org.jasig.cas.services.DefaultServicesManagerImpl] - Loaded 1 services.
+2014-07-25 23:27:01,217 INFO [org.jasig.cas.util.AutowiringSchedulerFactoryBean] - Starting Quartz Scheduler now
+2014-07-25 23:27:19,747 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Beginning ticket cleanup.
+2014-07-25 23:27:19,751 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - 0 tickets found to be removed.
+2014-07-25 23:27:19,752 INFO [org.jasig.cas.ticket.registry.support.DefaultTicketRegistryCleaner] - Finished ticket cleanup.
+2014-07-25 23:27:37,632 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-25 23:27:37,632 INFO [org.jasig.cas.web.flow.InitialFlowSetupAction] - Setting path for cookies to: /sso/
+2014-07-25 23:27:45,362 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - AcceptUsersAuthenticationHandler successfully authenticated hepx+password
+2014-07-25 23:27:45,363 INFO [org.jasig.cas.authentication.PolicyBasedAuthenticationManager] - Authenticated hepx with credentials [hepx+password].
+2014-07-25 23:27:45,367 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: supplied credentials: [hepx+password]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:27:45 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:27:45,368 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: TGT-1-wr6IRRS2sBcsPPoFsYe1dcVIkfcv1wT0K0ypI9e6o7l6PCSfsa-sso.example.org
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:27:45 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2014-07-25 23:27:45,375 INFO [org.jasig.cas.CentralAuthenticationServiceImpl] - Granted service ticket [ST-1-DEZcelFQ3d5VNNlTIHLk-sso.example.org] for service [http://localhost:8080/app/shiro-cas] for user [hepx]
+2014-07-25 23:27:45,376 INFO [com.github.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: hepx
+WHAT: ST-1-DEZcelFQ3d5VNNlTIHLk-sso.example.org for http://localhost:8080/app/shiro-cas
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri Jul 25 23:27:45 CST 2014
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
